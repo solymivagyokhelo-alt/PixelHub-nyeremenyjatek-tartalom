@@ -32,7 +32,9 @@
         font-weight: bold;
         color: #00f0ff;
         text-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff, 0 0 30px #00f0ff;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
+        position: relative;
+        z-index: 1;
     }
     .subtitle {
         font-size: 1.5em;
@@ -69,15 +71,16 @@
     }
     .pixel-art-left, .pixel-art-right {
         position: absolute;
-        top: 20px;
-        width: 40px;
-        height: 40px;
-        background-image: url('https://i.imgur.com/8w6RZpS.png');
+        top: 100px;
+        width: 50px;
+        height: 50px;
+        background-image: url('https://i.imgur.com/8w6RZpS.png'); /* pixel art placeholder */
         background-size: contain;
         background-repeat: no-repeat;
+        z-index: 0;
     }
-    .pixel-art-left { left: -50px; }
-    .pixel-art-right { right: -50px; }
+    .pixel-art-left { left: 0; }
+    .pixel-art-right { right: 0; }
     .footer { margin-top: 30px; text-align: center; font-size: 1em; }
 </style>
 </head>
