@@ -28,10 +28,11 @@
         text-align: center;
     }
     .banner-img {
+        display: block;
         width: 100%;
         max-height: 200px;
         object-fit: contain;
-        margin-bottom: 20px;
+        margin: 0 auto 20px auto;
         border-radius: 10px;
     }
     .pixel-art-left, .pixel-art-right {
@@ -134,7 +135,7 @@
         <div class="bundle-content">
             <div class="content-item">💰 45.000</div>
             <div class="content-item">🔥 2 napos LEGENDARY+ próbaidő</div>
-            <div class="content-item">🎡 Szerencsekerék: +100K 💰 lehetőség</div>
+            <div class="content-item">🎡 Szerencsekerék: +100.000 💰 lehetőség</div>
             <div class="content-item">🌞🏖️ Napfény, strand és játék minden percben! 🏄‍♂️</div>
         </div>
     </div>
