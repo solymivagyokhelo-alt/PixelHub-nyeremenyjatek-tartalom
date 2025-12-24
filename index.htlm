@@ -34,6 +34,17 @@
         text-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff, 0 0 30px #00f0ff;
         margin-bottom: 30px;
     }
+    .subtitle {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .neon-karacsonyi { color: #39ff14; text-shadow: 0 0 8px #39ff14; }
+    .neon-tavaszi { color: #7fff00; text-shadow: 0 0 8px #7fff00; }
+    .neon-halloweeni { color: #ffa500; text-shadow: 0 0 8px #ffa500; }
+    .neon-nyari { color: #ffff33; text-shadow: 0 0 8px #ffff33; }
+    .content-item { margin: 5px 0; font-size: 1.1em; }
     .pixel-art-left, .pixel-art-right {
         position: absolute;
         top: 20px;
@@ -45,110 +56,40 @@
     }
     .pixel-art-left { left: -50px; }
     .pixel-art-right { right: -50px; }
-    .bundle {
-        margin: 20px 0;
-        border-radius: 5px;
-        overflow: hidden;
-        background: #3a3a3a;
-    }
-    .bundle-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px;
-        cursor: pointer;
-        font-weight: bold;
-        font-size: 1.2em;
-        background: rgba(0,0,0,0.3);
-        border-bottom: 1px solid #444;
-    }
-    .neon-karacsonyi { color: #39ff14; text-shadow: 0 0 8px #39ff14; }
-    .neon-tavaszi { color: #7fff00; text-shadow: 0 0 8px #7fff00; }
-    .neon-halloweeni { color: #ffa500; text-shadow: 0 0 8px #ffa500; }
-    .neon-nyari { color: #ffff33; text-shadow: 0 0 8px #ffff33; }
-    .arrow {
-        transition: transform 0.3s;
-    }
-    .bundle-content {
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.5s ease;
-        padding: 0 10px;
-        background: #444;
-        border-top: 1px solid #555;
-        font-size: 1em;
-        line-height: 1.5em;
-        margin-bottom: 10px;
-        border-radius: 0 0 5px 5px;
-    }
-    .content-item { margin: 5px 0; }
-    .footer { margin-top: 20px; text-align: center; font-size: 1em; }
+    .footer { margin-top: 30px; text-align: center; font-size: 1em; }
 </style>
 </head>
 <body>
 <div class="container">
-    <div class="title">NYEREMÉNYJÁTÉK</div>
     <div class="pixel-art-left"></div>
     <div class="pixel-art-right"></div>
+    <div class="title">NYEREMÉNYJÁTÉK</div>
 
-    <div class="bundle">
-        <div class="bundle-header neon-karacsonyi">Karácsonyi Boundle <span class="arrow">&#9660;</span></div>
-        <div class="bundle-content">
-            <div class="content-item">🎁 100.000 💰</div>
-            <div class="content-item">🔥 3 napos LEGENDARY RANG</div>
-            <div class="content-item">🎡 Szerencsekerék: 1-7 nap Staff Team</div>
-            <div class="content-item">✨🎄 Random boldogság és csillogás mindenhol! 🎉</div>
-        </div>
-    </div>
+    <div class="subtitle neon-karacsonyi">Karácsonyi Boundle</div>
+    <div class="content-item">🎁 100.000 💰</div>
+    <div class="content-item">🔥 3 napos LEGENDARY RANG</div>
+    <div class="content-item">🎡 Szerencsekerék: 1-7 nap Staff Team</div>
+    <div class="content-item">✨🎄 Random boldogság és csillogás mindenhol! 🎉</div>
 
-    <div class="bundle">
-        <div class="bundle-header neon-tavaszi">Tavaszi Boundle <span class="arrow">&#9660;</span></div>
-        <div class="bundle-content">
-            <div class="content-item">💰 67.000</div>
-            <div class="content-item">⭐ 3 napos VIP rang</div>
-            <div class="content-item">🎡 Szerencsekerék: 5 napos MODERÁTOR próbaidő</div>
-            <div class="content-item">🌸🌼 Virágzik a tavasz, móka és kacagás mindenütt! 😄</div>
-        </div>
-    </div>
+    <div class="subtitle neon-tavaszi">Tavaszi Boundle</div>
+    <div class="content-item">💰 67.000</div>
+    <div class="content-item">⭐ 3 napos VIP rang</div>
+    <div class="content-item">🎡 Szerencsekerék: 5 napos MODERÁTOR próbaidő</div>
+    <div class="content-item">🌸🌼 Virágzik a tavasz, móka és kacagás mindenütt! 😄</div>
 
-    <div class="bundle">
-        <div class="bundle-header neon-halloweeni">Halloweeni Boundle <span class="arrow">&#9660;</span></div>
-        <div class="bundle-content">
-            <div class="content-item">💰 75.000</div>
-            <div class="content-item">🔥 1 napos LEGENDARY RANG próbaidő</div>
-            <div class="content-item">🎡 Szerencsekerék: 1 hét VIP próba</div>
-            <div class="content-item">🎃👻 Kísérteties móka és édességek! 🍬</div>
-        </div>
-    </div>
+    <div class="subtitle neon-halloweeni">Halloweeni Boundle</div>
+    <div class="content-item">💰 75.000</div>
+    <div class="content-item">🔥 1 napos LEGENDARY RANG próbaidő</div>
+    <div class="content-item">🎡 Szerencsekerék: 1 hét VIP próba</div>
+    <div class="content-item">🎃👻 Kísérteties móka és édességek! 🍬</div>
 
-    <div class="bundle">
-        <div class="bundle-header neon-nyari">Nyári Boundle <span class="arrow">&#9660;</span></div>
-        <div class="bundle-content">
-            <div class="content-item">💰 45.000</div>
-            <div class="content-item">🔥 2 napos LEGENDARY+ próbaidő</div>
-            <div class="content-item">🎡 Szerencsekerék: +100.000 💰 lehetőség</div>
-            <div class="content-item">🌞🏖️ Napfény, strand és játék minden percben! 🏄‍♂️</div>
-        </div>
-    </div>
+    <div class="subtitle neon-nyari">Nyári Boundle</div>
+    <div class="content-item">💰 45.000</div>
+    <div class="content-item">🔥 2 napos LEGENDARY+ próbaidő</div>
+    <div class="content-item">🎡 Szerencsekerék: +100.000 💰 lehetőség</div>
+    <div class="content-item">🌞🏖️ Napfény, strand és játék minden percben! 🏄‍♂️</div>
 
     <div class="footer">🎮✨ Élvezd a Boundle-k világát, és gyűjtsd a jutalmakat! 🌟🕹️</div>
 </div>
-
-<script>
-    const headers = document.querySelectorAll('.bundle-header');
-    headers.forEach(header => {
-        header.addEventListener('click', () => {
-            const content = header.nextElementSibling;
-            const arrow = header.querySelector('.arrow');
-            if(content.style.maxHeight){
-                content.style.maxHeight = null;
-                arrow.style.transform = 'rotate(0deg)';
-            } else {
-                content.style.maxHeight = content.scrollHeight + 'px';
-                arrow.style.transform = 'rotate(180deg)';
-            }
-        });
-    });
-</script>
 </body>
 </html>
