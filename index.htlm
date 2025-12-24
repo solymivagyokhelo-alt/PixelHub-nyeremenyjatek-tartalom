@@ -27,13 +27,12 @@
         position: relative;
         text-align: center;
     }
-    .banner-img {
-        display: block;
-        width: 100%;
-        max-height: 200px;
-        object-fit: contain;
-        margin: 0 auto 20px auto;
-        border-radius: 10px;
+    .title {
+        font-size: 2.5em;
+        font-weight: bold;
+        color: #00f0ff;
+        text-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff, 0 0 30px #00f0ff;
+        margin-bottom: 30px;
     }
     .pixel-art-left, .pixel-art-right {
         position: absolute;
@@ -46,13 +45,6 @@
     }
     .pixel-art-left { left: -50px; }
     .pixel-art-right { right: -50px; }
-    h1 {
-        font-size: 2em;
-        text-align: center;
-        color: #00f0ff;
-        text-shadow: 0 0 10px #00f0ff;
-        margin-bottom: 20px;
-    }
     .bundle {
         margin: 20px 0;
         border-radius: 5px;
@@ -95,10 +87,9 @@
 </head>
 <body>
 <div class="container">
-    <img src="nyeremenyjatek.png" alt="Nyereményjáték Banner" class="banner-img">
+    <div class="title">NYEREMÉNYJÁTÉK</div>
     <div class="pixel-art-left"></div>
     <div class="pixel-art-right"></div>
-    <h1>Nyereményjáték Boundle Jutalmak Tartalmai</h1>
 
     <div class="bundle">
         <div class="bundle-header neon-karacsonyi">Karácsonyi Boundle <span class="arrow">&#9660;</span></div>
